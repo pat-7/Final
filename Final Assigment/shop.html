@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Webstore</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+
+  <body>
+     <header>
+       
+    </header>
+
+    <main>
+
+        <form>
+            <h2>SEARCH</h2>
+            <fieldset>
+              <label for="productName">Name</label>
+              <input type="text" name="products" id="productName">
+            </fieldset>
+            <fieldset>
+              <legend>Price (less than)</legend>
+              <label><input type="radio" name="price" value="all" checked> All</label>
+              <label><input type="radio" name="price" value="100"> $200</label>
+              <label><input type="radio" name="price" value="500"> $400</label>
+              <label><input type="radio" name="price" value="800"> $800</label>
+              <label><input type="radio" name="price" value="1000"> $1000</label>
+            </fieldset>
+            <fieldset>
+              <label for="productCategory">Category</label>
+              <select name="category" id="productCategory">
+                <option value="" selected disabled>-- Search by Category --</option>
+                <option value="Footwear">Footwear</option>
+              </select>
+            </fieldset>
+          </form>
+
+
+      <h2>PRODUCTS</h2>
+      <button id="layout">Flip Layout</button>
+      <section id="products" class="products"></section>
+
+    </main>
+
+
+    <footer>
+    </footer>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>

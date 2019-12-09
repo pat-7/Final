@@ -1,0 +1,22 @@
+
+.products {
+  background-color: #fff;
+  padding: 0 1em;
+  /* margin: 1em 0; */
+  overflow: hidden;
+  box-shadow: 0 0 1em rgba(0,0,0,0.4);
+}
+
+.products {
+  display: grid;
+  grid-gap: 1em;
+}
+
+.product-img {
+  width: 5em;
+}
+
+.column-view {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
